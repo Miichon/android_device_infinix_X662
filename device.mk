@@ -16,12 +16,6 @@ AB_OTA_POSTINSTALL_CONFIG += \
 
 # V A/B
 ENABLE_VIRTUAL_AB := true
-
-# Health HAL
-PRODUCT_PACKAGES += \
-    android.hardware.health@2.1-impl \
-    android.hardware.health@2.1-service \
-    libhealthd.$(PRODUCT_PLATFORM)
     
 # Boot control HAL
 PRODUCT_PACKAGES += \
@@ -33,7 +27,6 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 PRODUCT_PACKAGES += \
     otapreopt_script \
-    cppreopts.sh \
     update_engine \
     update_verifier \
     update_engine_sideload
