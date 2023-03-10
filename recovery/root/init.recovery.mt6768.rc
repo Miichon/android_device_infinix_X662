@@ -1,4 +1,4 @@
-import /init.microtrust.rc
+import /microtrust.rc
     
 on init
     export LD_LIBRARY_PATH /vendor/lib64:/vendor/lib64/hw:/system/lib64:/system/lib64/hw
